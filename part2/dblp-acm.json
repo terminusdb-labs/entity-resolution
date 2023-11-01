@@ -1,0 +1,20 @@
+[
+  { "@type" : "@context",
+    "@base" : "iri:///dblp-acm/i/",
+    "@schema" : "iri:///dblp-acm#"
+  },
+  { "@type" : "Class",
+    "@id" : "Publication",
+    "@key" : { "@type" : "Lexical",
+               "@fields" : ["id"] },
+    "@metadata" : { "embedding" : { "query" : "query($id: ID){ Publication(id : $id) { title, authors, venue, year } }",
+                                    "template" : "The title of the paper is {{title}}. The authors are: {{authors}}. The venue for publication was: {{venue}}. The year of publication was {{year}}."
+                                  }
+                  },
+    "id" : "xsd:string",
+    "title" : "xsd:string",
+    "authors" : "xsd:string",
+    "venue" : "xsd:string",
+    "year" : "xsd:gYear"
+  }
+]
