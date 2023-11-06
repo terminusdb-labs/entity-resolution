@@ -1,0 +1,9 @@
+{ "@type" : "Class",
+  "@id" : "Publication",
+  "title" : "xsd:string",
+  "id" : "xsd:string",
+  "authors" : "xsd:string",
+  "venue" : "xsd:string",
+  "year": "xsd:gYear"
+  "source" : "xsd:string"
+}
