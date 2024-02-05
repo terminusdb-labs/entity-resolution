@@ -15,6 +15,7 @@
     "title" : "xsd:string",
     "authors" : "xsd:string",
     "venue" : "xsd:string",
-    "year" : "xsd:gYear"
+    "year" : "xsd:gYear",
+    "source" : "xsd:string"
   }
 ]

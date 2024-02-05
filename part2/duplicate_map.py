@@ -47,6 +47,6 @@ print(f"total retrieved: {total_retrieved}")
 print(f"total relevant: {total}")
 print(f"Precision: {precision}")
 
-# Calculate precision
+# Calculate recall
 recall = relevant / total
 print(f"Recall: {recall}")
